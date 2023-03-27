@@ -1,0 +1,35 @@
+{
+  "name": "pi-server",
+  "version": "1.0.0",
+  "description": "pi-academy backend server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/piacedemy/pi-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/piacedemy/pi-server/issues"
+  },
+  "homepage": "https://bitbucket.org/piacedemy/pi-server#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.276.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.1.0",
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "nodemon": "^2.0.20"
+  }
+}

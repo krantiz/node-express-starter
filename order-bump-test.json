@@ -1,0 +1,571 @@
+[
+  {
+      "id": 105536,
+      "title": "Order Bump - Algebra Easter Course Batch 2 Cart only",
+      "post_status": "publish",
+      "products": [
+          {
+              "title": "11+ Online School - Fractions, Decimals & Percentages Easter Course",
+              "discount_type": "percent_discount_sale",
+              "discount_amount": "0",
+              "discount_price": "0",
+              "quantity": "1",
+              "type": "simple",
+              "id": "105494",
+              "stock": "true",
+              "parent_product_id": "0",
+              "is_sold_individually": "true"
+          }
+      ],
+      "settings": {
+          "priority": "56",
+          "order_bump_position_hooks": "woocommerce_checkout_order_review_below_payment_gateway"
+      },
+      "design_data": {
+          "heading_background": "#ffff99",
+          "heading_hover_background": "#ffff56",
+          "heading_box_padding": "10",
+          "heading_color": "#009900",
+          "heading_hover_color": "#7AB061",
+          "error_color": "#E20707",
+          "heading_font_size": "16",
+          "header_enable_pointing_arrow": "true",
+          "point_animation": "1",
+          "price_box_padding": "10",
+          "price_font_size": "14",
+          "price_background": "#F2E363",
+          "price_color": "#333333",
+          "enable_price": "1",
+          "price_sale_color": "#333333",
+          "content_box_padding": "10",
+          "content_color": "#2F2F2F",
+          "content_variation_link_color": "#E20707",
+          "content_variation_link_hover_color": "#e15353",
+          "content_font_size": "13",
+          "enable_featured_image_border": "true",
+          "featured_image_border_width": "1",
+          "featured_image_border_style": "solid",
+          "featured_image_border_color": "#ECECEC",
+          "enable_box_border": "true",
+          "border_width": "3",
+          "border_style": "dashed",
+          "border_color": "#9e9e9e",
+          "bump_max_width": "",
+          "box_background": "#FFFFFF",
+          "box_padding": "1",
+          "layout": "layout_1",
+          "product_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_featured_image": "true",
+          "product_description": "Lorem Ipsum Layout 1",
+          "product_wfob_6047b6bbc1877_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_6047b6bbc1877_description": "<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Suitable for all Grammar and Independent Schools 11+ Exam</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Covers GL, CEM, CSSE, SET, ISEB &amp; Independent School Syllabus</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Course Handbook &amp; Lecture Notes PDF provided for future reference</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Homework provided for each session</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\">😍 Book two Courses, <strong>Save £50</strong>: Use code <strong>SAVE50</strong> during checkout</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">😍 Book three Courses, <strong>Save £100</strong>: Use code <strong>SAVE100</strong> during checkout</span></li>\n</ul>",
+          "product_wfob_6047b6bbc1877_featured_image": "true"
+      },
+      "rules": {
+          "AND": [
+              {
+                  "condition": {
+                      "rule_type": "cart_item",
+                      "operator": ">",
+                      "qty": "1",
+                      "products": [
+                          "105492"
+                      ]
+                  }
+              },
+              {
+                  "condition": {
+                      "rule_type": "cart_item",
+                      "operator": "!=",
+                      "qty": "1",
+                      "products": [
+                          "105494"
+                      ]
+                  }
+              }
+          ]
+      }
+  },
+  {
+      "id": 100132,
+      "title": "Order Bump – Creative Writing Half Term Course Cart only",
+      "post_status": "publish",
+      "products": [
+          {
+              "title": "",
+              "discount_type": "percent_discount_sale",
+              "discount_amount": "0",
+              "discount_price": "0",
+              "quantity": "1",
+              "type": "simple",
+              "id": "92285",
+              "stock": "true",
+              "parent_product_id": "0",
+              "is_sold_individually": "true"
+          }
+      ],
+      "settings": {
+          "priority": "45",
+          "order_bump_position_hooks": "woocommerce_checkout_order_review_below_payment_gateway"
+      },
+      "design_data": {
+          "heading_background": "#ffff99",
+          "heading_hover_background": "#ffff56",
+          "heading_box_padding": "10",
+          "heading_color": "#009900",
+          "heading_hover_color": "#7AB061",
+          "error_color": "#E20707",
+          "heading_font_size": "16",
+          "header_enable_pointing_arrow": "true",
+          "point_animation": "1",
+          "price_box_padding": "10",
+          "price_font_size": "14",
+          "price_background": "#F2E363",
+          "price_color": "#333333",
+          "enable_price": "true",
+          "price_sale_color": "#333333",
+          "content_box_padding": "10",
+          "content_color": "#2F2F2F",
+          "content_variation_link_color": "#E20707",
+          "content_variation_link_hover_color": "#e15353",
+          "content_font_size": "13",
+          "enable_featured_image_border": "true",
+          "featured_image_border_width": "1",
+          "featured_image_border_style": "solid",
+          "featured_image_border_color": "#ECECEC",
+          "enable_box_border": "true",
+          "border_width": "3",
+          "border_style": "dashed",
+          "border_color": "#9e9e9e",
+          "bump_max_width": "",
+          "box_background": "#FFFFFF",
+          "box_padding": "1",
+          "layout": "layout_1",
+          "product_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_featured_image": "true",
+          "product_description": "Lorem Ipsum Layout 1",
+          "product_wfob_602180ab222b2_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_602180ab222b2_description": "<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Covers descriptive and multiple-choice comprehension</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Suitable for all Grammar and Independent Schools 11+ Exam</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Covers GL, CEM, CSSE, SET, ISEB &amp; Independent School Syllabus</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Lecture Notes PDF provided for future reference</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Homework provided for each session </span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\">😍 Book two Courses, <strong>Save £50</strong>: Use code <strong>SAVE50</strong> during checkout</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">😍 Book three Courses, <strong>Save £100</strong>: Use code <strong>SAVE100</strong> during checkout</span></li>\n</ul>",
+          "product_wfob_602180ab222b2_featured_image": "true",
+          "product_wfob_62812c6b11b85_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_62812c6b11b85_description": "<ul>\n<li aria-level=\"1\">Suitable for all Grammar and Independent Schools 11+ Exam</li>\n<li aria-level=\"1\">Covers GL, CEM, CSSE, SET, ISEB &amp; Independent School Syllabus</li>\n<li aria-level=\"1\">Course Handbook &amp; Lecture Notes PDF provided for future reference</li>\n<li aria-level=\"1\">Homework provided for each session</li>\n<li aria-level=\"1\">😍 Book two Courses, <strong>Save £50</strong>: Use code <strong>SAVE50</strong> during checkout</li>\n<li aria-level=\"1\">😍 Book three Courses, <strong>Save £100</strong>: Use code <strong>SAVE100</strong> during checkout</li>\n</ul>",
+          "product_wfob_62812c6b11b85_featured_image": "true",
+          "product_wfob_62812c6b11b85_featured_image_options": {
+              "custom_url": "",
+              "image_url": "https://woocommerce-673951-2614313.cloudwaysapps.com/wp-content/uploads/2020/06/11-Plus-Online-School-Advance-Algebra-Crash-Course-150x150.png",
+              "width": "100",
+              "position": "left",
+              "type": "product"
+          },
+          "product_wfob_6282958a3db0c_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_6282958a3db0c_description": "<ul>\n<li aria-level=\"1\">Covers descriptive and multiple-choice comprehension</li>\n<li aria-level=\"1\">Suitable for all Grammar and Independent Schools 11+ Exam</li>\n<li aria-level=\"1\">Covers GL, CEM, CSSE, SET, ISEB &amp; Independent School Syllabus</li>\n<li aria-level=\"1\">Lecture Notes PDF provided for future reference</li>\n<li aria-level=\"1\">Homework provided for each session</li>\n<li aria-level=\"1\">😍 Book two Courses, <strong>Save £50</strong>: Use code <strong>SAVE50</strong> during checkout</li>\n<li aria-level=\"1\">😍 Book three Courses, <strong>Save £100</strong>: Use code <strong>SAVE100</strong> during checkout</li>\n</ul>",
+          "product_wfob_6282958a3db0c_featured_image": "true",
+          "product_wfob_6282958a3db0c_featured_image_options": {
+              "custom_url": "",
+              "image_url": "https://woocommerce-673951-2614313.cloudwaysapps.com/wp-content/uploads/2021/01/11-Plus-Comprehension-Half-Term-Course-150x150.png",
+              "width": "100",
+              "position": "left",
+              "type": "product"
+          }
+      },
+      "rules": {
+          "AND": [
+              {
+                  "condition": {
+                      "rule_type": "cart_item",
+                      "operator": ">",
+                      "qty": "1",
+                      "products": [
+                          "92287"
+                      ]
+                  }
+              },
+              {
+                  "condition": {
+                      "rule_type": "cart_item",
+                      "operator": ">",
+                      "qty": "1",
+                      "products": [
+                          "92285"
+                      ]
+                  }
+              }
+          ]
+      }
+  },
+  {
+      "id": 99980,
+      "title": "Order Bump - Ratios, Measurement &#038; Sequences Course Cart only",
+      "post_status": "publish",
+      "products": [
+          {
+              "title": "11+ Online School - Fractions, Decimals & Percentages Course",
+              "discount_type": "percent_discount_sale",
+              "discount_amount": "0",
+              "discount_price": "0",
+              "quantity": "1",
+              "type": "simple",
+              "id": "61109",
+              "stock": "false",
+              "parent_product_id": "0",
+              "is_sold_individually": "true",
+              "price_range": "",
+              "description": "<p>This course will cover the Fractions, Decimals &amp; Percentages of 11+ curriculum from basics to the advanced. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the equations and formulas under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you :)</p>"
+          },
+          {
+              "title": "",
+              "discount_type": "percent_discount_sale",
+              "discount_amount": "0",
+              "discount_price": "0",
+              "quantity": "1",
+              "type": "simple",
+              "id": "105494",
+              "stock": "true",
+              "parent_product_id": "0",
+              "is_sold_individually": "true",
+              "price_range": "",
+              "description": "This course will cover the Fractions, Decimals &amp; Percentages of 11+ curriculum from basics to the advanced. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the equations and formulas under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you :)"
+          }
+      ],
+      "settings": {
+          "priority": "37",
+          "order_bump_position_hooks": "woocommerce_checkout_order_review_below_payment_gateway"
+      },
+      "design_data": {
+          "heading_background": "#ffff99",
+          "heading_hover_background": "#ffff56",
+          "heading_box_padding": "10",
+          "heading_color": "#009900",
+          "heading_hover_color": "#7AB061",
+          "error_color": "#E20707",
+          "heading_font_size": "16",
+          "header_enable_pointing_arrow": "true",
+          "point_animation": "1",
+          "price_box_padding": "10",
+          "price_font_size": "14",
+          "price_background": "#F2E363",
+          "price_color": "#333333",
+          "enable_price": "true",
+          "price_sale_color": "#333333",
+          "content_box_padding": "10",
+          "content_color": "#2F2F2F",
+          "content_variation_link_color": "#E20707",
+          "content_variation_link_hover_color": "#e15353",
+          "content_font_size": "13",
+          "enable_featured_image_border": "true",
+          "featured_image_border_width": "1",
+          "featured_image_border_style": "solid",
+          "featured_image_border_color": "#ECECEC",
+          "enable_box_border": "true",
+          "border_width": "3",
+          "border_style": "dashed",
+          "border_color": "#9e9e9e",
+          "bump_max_width": "",
+          "box_background": "#FFFFFF",
+          "box_padding": "1",
+          "layout": "layout_1",
+          "product_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_featured_image": "true",
+          "product_description": "Lorem Ipsum Layout 1",
+          "product_wfob_602141fc50ece_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_602141fc50ece_description": "<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Suitable for all Grammar and Independent Schools 11+ Exam</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Covers GL, CEM, CSSE, SET, ISEB &amp; Independent School Syllabus</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Course Handbook &amp; Lecture Notes PDF provided for future reference</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Homework provided for each session </span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\">😍 Book two Courses, <strong>Save £50</strong>: Use code <strong>SAVE50</strong> during checkout</li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">😍 Book three Courses, <strong>Save £100</strong>: Use code <strong>SAVE100</strong> during checkout</span></li>\n</ul>",
+          "product_wfob_602141fc50ece_featured_image": "true",
+          "product_wfob_602141fc50ece_featured_image_options": {
+              "custom_url": "",
+              "image_url": "https://woocommerce-673951-2614313.cloudwaysapps.com/wp-content/uploads/2020/06/11-Plus-Fractions-Decimals-and-Percentages-Course-150x150.png",
+              "width": "100",
+              "position": "left",
+              "type": "product"
+          },
+          "product_wfob_63134be7b01a5_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_63134be7b01a5_description": "<ul>\n<li aria-level=\"1\">Suitable for all Grammar and Independent Schools 11+ Exam</li>\n<li aria-level=\"1\">Covers GL, CEM, CSSE, SET, ISEB &amp; Independent School Syllabus</li>\n<li aria-level=\"1\">Course Handbook &amp; Lecture Notes PDF provided for future reference</li>\n<li aria-level=\"1\">Homework provided for each session </li>\n<li aria-level=\"1\">😍 Book two Courses, <strong>Save £50</strong>: Use code <strong>SAVE50</strong> during checkout</li>\n<li aria-level=\"1\">😍 Book three Courses, <strong>Save £100</strong>: Use code <strong>SAVE100</strong> during checkout</li>\n</ul>",
+          "product_wfob_63134be7b01a5_featured_image": "true",
+          "product_wfob_63134be7b01a5_featured_image_options": {
+              "custom_url": "",
+              "image_url": "https://woocommerce-673951-2614313.cloudwaysapps.com/wp-content/uploads/2021/03/Fractions-and-Decimals-Course-150x150.png",
+              "width": "100",
+              "position": "left",
+              "type": "product"
+          }
+      },
+      "rules": {
+          "AND": [
+              {
+                  "condition": {
+                      "rule_type": "cart_item",
+                      "operator": ">",
+                      "qty": "1",
+                      "products": [
+                          "57521"
+                      ]
+                  }
+              },
+              {
+                  "condition": {
+                      "rule_type": "cart_item",
+                      "operator": "!=",
+                      "qty": "1",
+                      "products": [
+                          "105494"
+                      ]
+                  }
+              }
+          ]
+      }
+  },
+  {
+      "id": 71228,
+      "title": "Order bump - 11 Plus Free Mock Exam",
+      "post_status": "publish",
+      "products": [
+          {
+              "title": "11+ GL Assessment Mock Pack 1 (Maths + English)",
+              "discount_type": "percent_discount_sale",
+              "discount_amount": "0",
+              "discount_price": "0",
+              "quantity": "1",
+              "type": "simple",
+              "id": "64763",
+              "stock": "true",
+              "parent_product_id": "0",
+              "is_sold_individually": "true"
+          }
+      ],
+      "settings": [],
+      "design_data": {
+          "heading_box_padding": "10",
+          "heading_background": "#ffff99",
+          "heading_hover_background": "#ffff56",
+          "heading_color": "#009900",
+          "heading_hover_color": "#7AB061",
+          "heading_font_size": "16",
+          "header_enable_pointing_arrow": "true",
+          "point_animation": "1",
+          "price_box_padding": "10",
+          "price_font_size": "14",
+          "price_background": "#F2E363",
+          "price_color": "#333333",
+          "enable_price": "1",
+          "price_sale_color": "#333333",
+          "content_box_padding": "10",
+          "content_color": "#2F2F2F",
+          "content_variation_link_color": "#E20707",
+          "content_variation_link_hover_color": "#e15353",
+          "content_font_size": "13",
+          "enable_featured_image_border": "true",
+          "featured_image_border_width": "1",
+          "featured_image_border_style": "solid",
+          "featured_image_border_color": "#ECECEC",
+          "enable_box_border": "true",
+          "border_width": "3",
+          "border_style": "dashed",
+          "border_color": "#9e9e9e",
+          "bump_max_width": "",
+          "box_background": "#FFFFFF",
+          "box_padding": "1",
+          "layout": "layout_1",
+          "error_color": "#E20707",
+          "product_wfob_5f465b6940cf1_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5f465b6940cf1_description": "<ul>\n \t<li style=\"font-weight: 400;\">Pack 1 contains 3 full-length mock exams reflecting 11+ GL assessment</li>\n \t<li style=\"font-weight: 400;\">1 Maths and 1 English test in each mock exam</li>\n \t<li style=\"font-weight: 400;\">Perfectly suitable for QE Boys, Kent, Tiffin, and many other grammar schools</li>\n \t<li style=\"font-weight: 400;\">It’s also a great practice for the students who are appearing for the 11+ independent school exams</li>\n \t<li style=\"font-weight: 400;\">Designed and crafted by PiAcademy 11+ experts</li>\n \t<li style=\"font-weight: 400;\">Take the mocks on your own flexible time</li>\n \t<li style=\"font-weight: 400;\">This mock exam pack is valid for 1 year from the date of purchase</li>\n <li style=\"font-weight: 400;\">😍 90% of parents bought these premium mocks </li>\n</ul>",
+          "product_wfob_5f465b6940cf1_featured_image": "true"
+      },
+      "rules": {
+          "AND": [
+              {
+                  "condition": {
+                      "rule_type": "cart_item",
+                      "operator": ">",
+                      "qty": "1",
+                      "products": [
+                          "64397"
+                      ]
+                  }
+              }
+          ]
+      }
+  },
+  {
+      "id": 62276,
+      "title": "Online School - Creative Writing Course Booking - Copy",
+      "post_status": "draft",
+      "products": [
+          {
+              "title": "11+ Online School - Fractions, Decimals & Percentages Crash Course",
+              "discount_type": "percent_discount_sale",
+              "discount_amount": "0",
+              "discount_price": "0",
+              "quantity": "1",
+              "type": "simple",
+              "id": "61109",
+              "stock": "true",
+              "parent_product_id": "0",
+              "is_sold_individually": "true"
+          }
+      ],
+      "settings": {
+          "priority": "1",
+          "order_bump_position_hooks": "woocommerce_checkout_order_review_below_payment_gateway"
+      },
+      "design_data": {
+          "heading_box_padding": "10",
+          "heading_background": "#ffff99",
+          "heading_hover_background": "#ffff56",
+          "heading_color": "#009900",
+          "heading_hover_color": "#7AB061",
+          "heading_font_size": "16",
+          "header_enable_pointing_arrow": "true",
+          "point_animation": "1",
+          "price_box_padding": "10",
+          "price_font_size": "14",
+          "price_background": "#F2E363",
+          "price_color": "#333333",
+          "enable_price": "1",
+          "price_sale_color": "#333333",
+          "content_box_padding": "10",
+          "content_color": "#2F2F2F",
+          "content_variation_link_color": "#E20707",
+          "content_variation_link_hover_color": "#e15353",
+          "content_font_size": "13",
+          "enable_featured_image_border": "true",
+          "featured_image_border_width": "1",
+          "featured_image_border_style": "solid",
+          "featured_image_border_color": "#ECECEC",
+          "enable_box_border": "true",
+          "border_width": "3",
+          "border_style": "dashed",
+          "border_color": "#9e9e9e",
+          "bump_max_width": "",
+          "box_background": "#FFFFFF",
+          "box_padding": "1",
+          "layout": "layout_1",
+          "error_color": "#E20707",
+          "product_wfob_5d3d6aa0d3985_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5d3d6aa0d3985_description": "<ul>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Past papers covering whole 11+ syllabus</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Detailed writing plan along with hints for each question</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">440+ comprehension questions</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">70+ creative writing practice</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Best practice pack for 11+ exams</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Exam planner to practice the papers in order of difficulty</span></li>\n<li style=\"font-weight: 400;\">😍 Extra £5 off for you now!</span></li>\n</ul>",
+          "product_wfob_5d3d6aa0d3985_featured_image": "true",
+          "product_wfob_5ef77f2bee28e_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5ef77f2bee28e_description": "<ul>\n<li>Applied £49 discount automatically here</li>\n<li>This course will cover the Algebra of 11+ curriculum from basics to the advanced. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the equations and formulas under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you :)</li>\n\n",
+          "product_wfob_5ef77f2bee28e_featured_image": "true",
+          "product_wfob_5ef77f5586eba_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5ef77f5586eba_description": "<span style=\"font-weight: 400;\">This course will cover all the concepts of Non-verbal reasoning curriculum which are tested in most of the 11+ and 13+ exams. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the logics and rules of NVR under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you 🙂</span>",
+          "product_wfob_5ef77f5586eba_featured_image": "true",
+          "product_wfob_5ef78d6b595a7_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5ef78d6b595a7_description": "<ul>\n<li>Applied £49 discount automatically here</li>\n<li>This course will cover the Geometry of 11+ curriculum from basics to the advanced. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the equations and formulas under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you :)</li>",
+          "product_wfob_5ef78d6b595a7_featured_image": "true",
+          "product_wfob_5f085bc844948_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5f085bc844948_description": "<ul>\n<li>Applied £49 discount automatically here</li>\n<li>\nThis course will cover the Statistics, Probability of 11+ curriculum from basics to the advanced. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the equations and formulas under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you :)",
+          "product_wfob_5f085bc844948_featured_image": "true",
+          "product_wfob_5f19f6c23c0b5_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5f19f6c23c0b5_description": "This course will cover the Algebra of 11+ curriculum from basics to the advanced. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the equations and formulas under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you :)",
+          "product_wfob_5f19f6c23c0b5_featured_image": "true"
+      },
+      "rules": {
+          "AND": [
+              {
+                  "condition": {
+                      "rule_type": "cart_item",
+                      "operator": ">",
+                      "qty": "1",
+                      "products": [
+                          "57607"
+                      ]
+                  }
+              }
+          ]
+      }
+  },
+  {
+      "id": 62270,
+      "title": "Online School - Creative Writing Course Booking",
+      "post_status": "draft",
+      "products": [
+          {
+              "title": "11+ Online School - Algebra Course",
+              "discount_type": "percent_discount_sale",
+              "discount_amount": "0",
+              "discount_price": "0",
+              "quantity": "1",
+              "type": "simple",
+              "id": "57607",
+              "stock": "true",
+              "parent_product_id": "0",
+              "is_sold_individually": "true"
+          }
+      ],
+      "settings": {
+          "priority": "1",
+          "order_bump_position_hooks": "woocommerce_checkout_order_review_below_payment_gateway"
+      },
+      "design_data": {
+          "heading_box_padding": "10",
+          "heading_background": "#ffff99",
+          "heading_hover_background": "#ffff56",
+          "heading_color": "#009900",
+          "heading_hover_color": "#7AB061",
+          "heading_font_size": "16",
+          "header_enable_pointing_arrow": "true",
+          "point_animation": "1",
+          "price_box_padding": "10",
+          "price_font_size": "14",
+          "price_background": "#F2E363",
+          "price_color": "#333333",
+          "enable_price": "1",
+          "price_sale_color": "#333333",
+          "content_box_padding": "10",
+          "content_color": "#2F2F2F",
+          "content_variation_link_color": "#E20707",
+          "content_variation_link_hover_color": "#e15353",
+          "content_font_size": "13",
+          "enable_featured_image_border": "true",
+          "featured_image_border_width": "1",
+          "featured_image_border_style": "solid",
+          "featured_image_border_color": "#ECECEC",
+          "enable_box_border": "true",
+          "border_width": "3",
+          "border_style": "dashed",
+          "border_color": "#9e9e9e",
+          "bump_max_width": "",
+          "box_background": "#FFFFFF",
+          "box_padding": "1",
+          "layout": "layout_1",
+          "error_color": "#E20707",
+          "product_wfob_5d3d6aa0d3985_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5d3d6aa0d3985_description": "<ul>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Past papers covering whole 11+ syllabus</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Detailed writing plan along with hints for each question</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">440+ comprehension questions</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">70+ creative writing practice</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Best practice pack for 11+ exams</span></li>\n \t<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Exam planner to practice the papers in order of difficulty</span></li>\n<li style=\"font-weight: 400;\">😍 Extra £5 off for you now!</span></li>\n</ul>",
+          "product_wfob_5d3d6aa0d3985_featured_image": "true",
+          "product_wfob_5ef77f2bee28e_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5ef77f2bee28e_description": "<ul>\n<li>Applied £49 discount automatically here</li>\n<li>This course will cover the Algebra of 11+ curriculum from basics to the advanced. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the equations and formulas under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you :)</li>\n\n",
+          "product_wfob_5ef77f2bee28e_featured_image": "true",
+          "product_wfob_5ef77f5586eba_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5ef77f5586eba_description": "<span style=\"font-weight: 400;\">This course will cover all the concepts of Non-verbal reasoning curriculum which are tested in most of the 11+ and 13+ exams. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the logics and rules of NVR under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you 🙂</span>",
+          "product_wfob_5ef77f5586eba_featured_image": "true",
+          "product_wfob_5f085abb53a62_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5f085abb53a62_description": "<ul>\n<li>Applied £49 discount automatically here</li>\n<li>\nThis course will cover the Permutation, Combination &amp; Network Analysis of 11+ curriculum from basics to the advanced. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the equations and formulas under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you :)",
+          "product_wfob_5f085abb53a62_featured_image": "true",
+          "product_wfob_5f19f661b75af_title": "<span style='color:#ff0000'>Yes!</span> Add {{product_name}} to my order",
+          "product_wfob_5f19f661b75af_description": "<span style=\"font-weight: 400;\">This course will cover all kinds of verbal reasoning questions covered in GL exams which are tested in most of the 11+ and 13+ exams. Lecture notes, homework will be provided in pdf copy to print and save for future reference. We have curated this course to teach your child the exam techniques and how to perform well with the logics and rules of NVR under time conditions. We have only a few seats left. Book your slot before they are booked by other curious parents like you 🙂</span>",
+          "product_wfob_5f19f661b75af_featured_image": "true"
+      },
+      "rules": {
+          "AND": [
+              {
+                  "condition": {
+                      "rule_type": "cart_item",
+                      "operator": ">",
+                      "qty": "1",
+                      "products": [
+                          "57521",
+                          "61109",
+                          "61617",
+                          "61918",
+                          "61937",
+                          "61942",
+                          "58389",
+                          "61945",
+                          "61028",
+                          "80197"
+                      ]
+                  }
+              }
+          ]
+      }
+  }
+]
