@@ -1,5 +1,4 @@
 const HttpError = require("../models/http-error");
-const { validationResult } = require("express-validator");
 const pool = require("../database");
 require("dotenv").config();
 
@@ -23,7 +22,7 @@ const usersController = {
   },
   
   postUsers: async (req, res, next) => {
-    const errors = validationResult(req);
+    const errors = req;
     if (!errors.isEmpty()) {
       return next(
         new HttpError("Invalid inputs passed, please check your data.", 422)

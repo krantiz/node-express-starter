@@ -6,11 +6,8 @@ require("dotenv").config();
 const fs = require("fs");
 var Constants = require('./utils/Contants');
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 const usersRoutes = require("./routes/users-routes");
-const cerebryRoutes = require("./routes/cerebry-routes");
-const feedbackRoutes = require("./routes/feedback-routes");
-const genericRoutes = require("./routes/generic-routes");
 const auth = require("./middlewares/auth");
 const roleCheck = require("./middlewares/role");
 
@@ -19,7 +16,7 @@ const app = express();
 
 // Middlewares..
 app.use(cors({
-  origin: ['https://phpstack-673951-3047386.cloudwaysapps.com']
+  origin: ['*']
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); // parsing the request
@@ -47,29 +44,6 @@ app.use(
   auth.verifyToken,
   roleCheck.authorise([Constants.ROLES.student, Constants.ROLES.teacher]),
   usersRoutes
-);
-app.use(
-  "/api/service-provider/",
-  auth.verifyToken,
-  roleCheck.authorise([Constants.ROLES.student, Constants.ROLES.teacher]),
-  cerebryRoutes
-);
-app.use(
-  "/api/feedback/",
-  auth.verifyToken,
-  roleCheck.authorise([Constants.ROLES.student]),
-  feedbackRoutes
-);
-app.use(
-  "/api/order-bump",
-  genericRoutes
-);
-app.use(
-  "/api",
-  auth.verifyToken,
-  roleCheck.authorise([Constants.ROLES.teacher]),
-  upload.single("file"),
-  feedbackRoutes
 );
 
 router.use((req, res, next) => {
