@@ -1,0 +1,12 @@
+GET http://localhost:9000/api/users/getuser
+
+###
+
+POST http://localhost:9000/api/users/postusers
+content-type: application/json
+
+{
+    "name": "sample",
+    "email": "kranti.gajula@gmail.com",
+    "password": "Wed"
+}
